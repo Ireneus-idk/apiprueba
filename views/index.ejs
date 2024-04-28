@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API de Películas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>API de Películas</h1>
+    <p>Bienvenido a la API de películas. Aquí puedes realizar operaciones CRUD sin consumir otras APIs.</p>
+    <h2>Listado de Películas</h2>
+    <ul>
+        <% movies.forEach(function(movie) { %>
+            <li><strong>Título:</strong> <%= movie.title %></li>
+            <li><strong>Director:</strong> <%= movie.director %></li>
+            <br>
+        <% }); %>
+    </ul>
+</body>
+</html>
