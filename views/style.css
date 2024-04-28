@@ -1,8 +1,26 @@
 body{
-    background-image: url(./Dia-del-cine-2-1024x576.jpg);
+    background-image: url(./sala-de-cine.jpg);
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:auto;
+   
+}
+h2{
+    text-align: center;
+}
+h1{
+   text-align: center;
 }
 ul{
+    text-align: center;
+    text-decoration:dotted;
+    list-style: none;
     color: blueviolet;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    text-align: center;
 }
