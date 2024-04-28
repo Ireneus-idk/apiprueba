@@ -1,4 +1,5 @@
 {
+  "start" : "node app.js"
   "name": "primerparcialpw2",
   "version": "1.0.0",
   "description": "",
